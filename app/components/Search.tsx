@@ -13,6 +13,7 @@ export default function Search() {
         router.push(`/${search}/`)
     }
 
+
   return (
     <form className="w-50 flex justify-center md:justify-between" onSubmit={handleSubmit}>
         <input 
